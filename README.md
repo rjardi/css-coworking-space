@@ -1,2 +1,2 @@
-## nft-marketplace css result
-<img src="/img/nft-marketplace-snapshot.png">
+## coworking-space css result
+<img src="/img/coworking-space-snapshot.png">
