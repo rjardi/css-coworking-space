@@ -315,8 +315,7 @@ section.hero div.hero-text{
   background-color:rgba(255, 255, 255, 0.7);
   position:relative;
   padding: 26px 46px;
-  /* margin: 0; */
-
+  backdrop-filter: blur(8px);
 }
 
 div.hero-text h1{
@@ -332,33 +331,32 @@ div.hero-text>p{
   font-size: 24px;
 }
 
-div.checks{
+div.checks ul{
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   width: 30%;
   margin-left: auto;
-  align-items: center;
+  list-style: none;
+  gap: 20px;
 }
 
-div.check{
-  display: flex;
-  gap: 8px;
-
-}
-
-div.check>h3{
+div.checks ul li{
   font-family: var(--primary-font);
   font-size: 18px;
   font-weight: 400;
+  padding-left: 35px;
+  background-image: url('../img/check.svg');
+  background-repeat: no-repeat;
 }
 
 section.categories{
   display: flex;
-  gap: 32px;
+  gap: 30px;
 
 }
 
-div.category{
+article.category{
   padding: 27px 96px;
   font-family: var(--primary-font);
 }
